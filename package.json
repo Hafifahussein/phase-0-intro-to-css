@@ -4,9 +4,16 @@
   "description": "Learning Goals",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Running test script...\""
+    "test": "npm run lint:html && npm run lint:css",
+    "lint:html": "htmlhint **/*.html",
+    "lint:css": "stylelint **/*.css"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^16.19.1",
+    "stylelint-config-standard": "^38.0.0"
+  }
 }

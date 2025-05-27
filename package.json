@@ -1,0 +1,12 @@
+{
+  "name": "phase-0-intro-to-css",
+  "version": "1.0.0",
+  "description": "Learning Goals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Running test script...\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
